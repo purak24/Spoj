@@ -8,7 +8,7 @@ ll check(ll t,int n,int arr[])
         tot+=t/arr[i];
     return tot;
 }
-ll binSearch(int arr[],int n,ll prod,ll big)
+int binSearch(int arr[],int n,ll prod,ll big)
 {
     ll mid,low=1,high=big;
     while(low<high)
